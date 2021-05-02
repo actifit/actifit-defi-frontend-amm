@@ -1,10 +1,10 @@
-import { MenuEntry } from '@pancakeswap-libs/uikit'
+import { MenuEntry, menuStatus } from '@pancakeswap-libs/uikit'
 
 const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: 'https://www.goosedefi.com/'
+    href: 'https://defi.actifit.io/'
   },
   {
     label: 'Trade',
@@ -22,39 +22,58 @@ const config: MenuEntry[] = [
     ]
   },
   {
-    label: 'Farms',
+    label: 'Workouts',
     icon: 'FarmIcon',
-    href: 'https://www.goosedefi.com/farms'
+    href: 'https://defi.actifit.io/farms'
   },
   {
-    label: 'Nests',
+    label: 'Shakes',
     icon: 'PoolIcon',
-    href: 'https://www.goosedefi.com/nests'
+    href: 'https://defi.actifit.io/nests'
   },
-  // {
-  //   label: 'Lottery',
-  //   icon: 'TicketIcon',
-  //   href: 'https://www.goosedefi.com/lottery'
-  // },
+  {
+    label: 'Lottery',
+    icon: 'TicketIcon',
+    href: 'https://www.goosedefi.com/lottery',
+    status: menuStatus.SOON,
+  },
+  {
+    label: 'NFT',
+    icon: 'NftIcon',
+    href: 'https://defi.actifit.io/nft',
+	  status: menuStatus.SOON,
+  },
   {
     label: 'Info',
     icon: 'InfoIcon',
     items: [
       {
-        label: 'PancakeSwap',
-        href: 'https://pancakeswap.info/token/0xF952Fc3ca7325Cc27D15885d37117676d25BfdA6',
+        label: 'Actifit',
+        href: 'https://actifit.io',
       },
       {
-        label: 'CoinGecko',
-        href: 'https://www.coingecko.com/en/coins/goose-finance',
+        label: 'AFIT - PancakeSwap',
+        href: 'https://pancakeswap.info/token/0x4516bb582f59befcbc945d8c2dac63ef21fba9f6',
       },
+      {
+        label: 'AFITX - PancakeSwap',
+        href: 'https://pancakeswap.info/token/0x246d22ff6e0b90f80f2278613e8db93ff7a09b95',
+      },
+      //{
+      //  label: 'CoinGecko',
+      //  href: 'https://www.coingecko.com/en/coins/goose-finance',
+      //},
       {
         label: 'CoinMarketCap',
-        href: 'https://coinmarketcap.com/currencies/goose-finance/',
+        href: 'https://coinmarketcap.com/currencies/actifit/',
       },
       {
-        label: 'AstroTools',
-        href: 'https://app.astrotools.io/pancake-pair-explorer/0x19e7cbecdd23a16dfa5573df54d98f7caae03019',
+        label: 'AFIT - AstroTools',
+        href: 'https://app.astrotools.io/pancake-pair-explorer/0x4516bb582f59befcbc945d8c2dac63ef21fba9f6',
+      },
+      {
+        label: 'AFITX - AstroTools',
+        href: 'https://app.astrotools.io/pancake-pair-explorer/0x246d22ff6e0b90f80f2278613e8db93ff7a09b95',
       },
     ]
   },
@@ -64,32 +83,41 @@ const config: MenuEntry[] = [
     items: [
       {
         label: "Github",
-        href: "https://github.com/goosedefi/",
+        href: "https://github.com/actifit/",
       },
       {
         label: "Docs",
-        href: "https://goosedefi.gitbook.io/goose-finance/",
+        href: "https://actifit.io/whitepaper/Actifit_White_Paper.pdf",
       },
       {
         label: "Blog",
-        href: "https://goosefinance.medium.com/",
+        href: "https://hive.blog/@actifit",
+      },
+      {
+        label: 'BSC Scan AFIT',
+        href: 'https://bscscan.com/token/0x4516bb582f59befcbc945d8c2dac63ef21fba9f6',
+      },
+      {
+        label: 'BSC Scan AFITX',
+        href: 'https://bscscan.com/token/0x246d22ff6e0b90f80f2278613e8db93ff7a09b95',
       },
     ],
   },
-  {
-    label: 'Partnerships/IFO',
-    icon: 'GooseIcon',
-    href: 'https://docs.google.com/forms/d/e/1FAIpQLSe7ycrw8Dq4C5Vjc9WNlRtTxEhFDB1Ny6jlAByZ2Y6qBo7SKg/viewform?usp=sf_link',
-  },
-  {
-    label: 'Audit by Hacken',
+  //{
+ //   label: 'Partnerships/IFO',
+ //   icon: 'GooseIcon',
+  //  href: 'https://docs.google.com/forms/d/e/1FAIpQLSe7ycrw8Dq4C5Vjc9WNlRtTxEhFDB1Ny6jlAByZ2Y6qBo7SKg/viewform?usp=sf_link',
+ // },
+ // {
+ //   label: 'Audit by Hacken',
+ //   icon: 'AuditIcon',
+ //   href: 'https://www.goosedefi.com/files/hackenAudit.pdf',
+ // },
+ // {
+    label: 'Audit',
     icon: 'AuditIcon',
-    href: 'https://www.goosedefi.com/files/hackenAudit.pdf',
-  },
-  {
-    label: 'Audit by CertiK',
-    icon: 'AuditIcon',
-    href: 'https://certik.org/projects/goose-finance',
+    href: '',
+    status: menuStatus.SOON,
   },
 ]
 
