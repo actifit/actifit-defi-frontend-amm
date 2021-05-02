@@ -41,7 +41,7 @@ const config: MenuEntry[] = [
     label: 'NFT',
     icon: 'NftIcon',
     href: 'https://defi.actifit.io/nft',
-	  status: menuStatus.SOON,
+    status: menuStatus.SOON,
   },
   {
     label: 'Info',
@@ -113,7 +113,7 @@ const config: MenuEntry[] = [
  //   icon: 'AuditIcon',
  //   href: 'https://www.goosedefi.com/files/hackenAudit.pdf',
  // },
- // {
+ {
     label: 'Audit',
     icon: 'AuditIcon',
     href: '',
