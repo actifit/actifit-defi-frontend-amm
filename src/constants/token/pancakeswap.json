@@ -11,6 +11,22 @@
   "keywords": ["pancake", "default"],
   "tokens": [
     {
+      "name": "Actifit DeFi Token",
+      "symbol": "AFITX",
+      "address": "0x246d22ff6e0b90f80f2278613e8db93ff7a09b95",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://actifit.io/img/AFITX.png"
+    },
+	  {
+      "name": "Actifit Token",
+      "symbol": "AFIT",
+      "address": "0x4516bb582f59befcbc945d8c2dac63ef21fba9f6",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://actifit.io/img/actifit_logo.png"
+    },
+    {
       "name": "Goose Golden Egg",
       "symbol": "EGG",
       "address": "0xF952Fc3ca7325Cc27D15885d37117676d25BfdA6",
