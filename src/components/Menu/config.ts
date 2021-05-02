@@ -59,10 +59,10 @@ const config: MenuEntry[] = [
         label: 'AFITX - PancakeSwap',
         href: 'https://pancakeswap.info/token/0x246d22ff6e0b90f80f2278613e8db93ff7a09b95',
       },
-      //{
+      // {
       //  label: 'CoinGecko',
       //  href: 'https://www.coingecko.com/en/coins/goose-finance',
-      //},
+      // },
       {
         label: 'CoinMarketCap',
         href: 'https://coinmarketcap.com/currencies/actifit/',
@@ -103,16 +103,16 @@ const config: MenuEntry[] = [
       },
     ],
   },
-  //{
- //   label: 'Partnerships/IFO',
- //   icon: 'GooseIcon',
+  // {
+  //   label: 'Partnerships/IFO',
+  //   icon: 'GooseIcon',
   //  href: 'https://docs.google.com/forms/d/e/1FAIpQLSe7ycrw8Dq4C5Vjc9WNlRtTxEhFDB1Ny6jlAByZ2Y6qBo7SKg/viewform?usp=sf_link',
- // },
- // {
- //   label: 'Audit by Hacken',
- //   icon: 'AuditIcon',
- //   href: 'https://www.goosedefi.com/files/hackenAudit.pdf',
- // },
+  // },
+  // {
+  //   label: 'Audit by Hacken',
+  //   icon: 'AuditIcon',
+  //   href: 'https://www.goosedefi.com/files/hackenAudit.pdf',
+  // },
  {
     label: 'Audit',
     icon: 'AuditIcon',
