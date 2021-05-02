@@ -34,13 +34,13 @@ const config: MenuEntry[] = [
   {
     label: 'Lottery',
     icon: 'TicketIcon',
-    href: 'https://www.goosedefi.com/lottery',
+    href: '',
     status: menuStatus.SOON,
   },
   {
     label: 'NFT',
     icon: 'NftIcon',
-    href: 'https://defi.actifit.io/nft',
+    href: '',
     status: menuStatus.SOON,
   },
   {
@@ -61,7 +61,7 @@ const config: MenuEntry[] = [
       },
       // {
       //  label: 'CoinGecko',
-      //  href: 'https://www.coingecko.com/en/coins/goose-finance',
+      //  href: 'https://www.coingecko.com/en/coins/actifit',
       // },
       {
         label: 'CoinMarketCap',
