@@ -87,7 +87,7 @@ const config: MenuEntry[] = [
       },
       {
         label: "Docs",
-        href: "https://actifit.io/whitepaper/Actifit_White_Paper.pdf",
+        href: "https://docs.actifit.io/",
       },
       {
         label: "Blog",
